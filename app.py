@@ -4,7 +4,7 @@ import streamlit as st
 API_KEY = st.sidebar.text_input('Enter your API key')
 openai.api_key = API_KEY
 
-# openai.api_key = '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'
+# openai.api_key = ''
 
 def main():
     st.sidebar.header('AI Blog Writing Tool')
